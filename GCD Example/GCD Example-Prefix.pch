@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'GCD Example' target in the 'GCD Example' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
