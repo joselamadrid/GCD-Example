@@ -15,4 +15,5 @@
 -(IBAction)buttonCalculateClick:(id) sender;
 -(void)func;
 -(void)func2;
+-(void)func3;
 @end
