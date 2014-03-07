@@ -10,7 +10,7 @@
 
 @interface BIDAppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet NSWindow *window;   
 @property (strong, nonatomic) IBOutlet NSTextField *resultLabel;
--(IBAction)buttonCalculateClick:(id) sender; 
+-(IBAction)buttonCalculateClick:(id) sender;
 @end
