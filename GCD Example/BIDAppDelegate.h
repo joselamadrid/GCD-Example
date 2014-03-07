@@ -14,4 +14,5 @@
 @property (strong, nonatomic) IBOutlet NSTextField *resultLabel;
 -(IBAction)buttonCalculateClick:(id) sender;
 -(void)func;
+-(void)func2;
 @end
