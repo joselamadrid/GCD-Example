@@ -8,9 +8,9 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface BIDAppDelegate : NSObject <NSApplicationDelegate>
+@interface BIDAppDelegate : NSObject <NSApplicationDelegate> 
 
-@property (assign) IBOutlet NSWindow *window;   
+@property (assign) IBOutlet NSWindow *window;
 @property (strong, nonatomic) IBOutlet NSTextField *resultLabel;
 -(IBAction)buttonCalculateClick:(id) sender;
 @end
