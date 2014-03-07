@@ -13,5 +13,4 @@
 @property (assign) IBOutlet NSWindow *window;
 @property (strong, nonatomic) IBOutlet NSTextField *resultLabel;
 -(IBAction)buttonCalculateClick:(id) sender;
--(void)func;
 @end
